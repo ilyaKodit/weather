@@ -28,14 +28,17 @@
 2) Склонировать проект к себе на компьютер использовав в терминале команду - "git clone https://github.com/ilyaKodit/weather.git"
 3) Открыть два терминала, перейти в обоих в папку проекта и последовательно ввести следующие команды:
 В первом терминале:
-    "cd backend"
-    "npm install" или "yarn"
-    Дождаться установки всех зависимостей
-    "npm run dev" или "yarn dev"
+
+"cd backend"
+"npm install" или "yarn"
+Дождаться установки всех зависимостей
+"npm run dev" или "yarn dev"
 
 Во втором терминале
-    "cd frontend"
-    "npm install" или "yarn"
-    "npm run start" или "yarn start"
+
+"cd frontend"
+"npm install" или "yarn"
+Дождаться установки всех зависимостей
+"npm run start" или "yarn start"
 
 4) Ввести в адресной строке браузера http://localhost:4001/
