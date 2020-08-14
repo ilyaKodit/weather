@@ -2,9 +2,17 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 
+const mongoose = require('mongoose');
+const { connect } = mongoose;
+
 const bodyParser = require('body-parser');
 
 const app = express();
+
+connect(
+  process.env.MONGODB_URL,
+  { useNewUrlParser: true, useUnifiedTopology: true },
+);
 
 app.use(cors());
 app.use(bodyParser.json());
