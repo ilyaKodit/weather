@@ -43,3 +43,6 @@
 - "npm run start" или "yarn start"
 
 4) Ввести в адресной строке браузера http://localhost:4001/
+
+
+[![Watch the video](https://youtu.be/BUebAZGdY8s)]
