@@ -1,0 +1,28 @@
+.popular {
+  margin: 20px;
+  display: flex;
+}
+.popular_card {
+  height: 130px;
+  width: 200px;
+  margin: 0 10px;
+}
+.popular_temp-block {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+.popular_img {
+  width: 60px;
+  height: 60px;
+}
+.popular_temp > p > b {
+  font-size: 20px;
+  line-height: 60px;
+}
+@media (max-width: 600px) {
+  .popular {
+    display: none;
+  }
+}
