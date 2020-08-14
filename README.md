@@ -45,4 +45,6 @@
 4) Ввести в адресной строке браузера http://localhost:4001/
 
 
-[![Watch the video](https://youtu.be/BUebAZGdY8s)]
+# Видео работы страницы
+
+https://youtu.be/BUebAZGdY8s
